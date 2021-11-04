@@ -1,4 +1,4 @@
-# AI_safty-homework
+# homework1
 任务：使用cifar10数据集进行图像分类任务
 具体内容：使用Python语言，用jupyter notebook作为编辑器，使用PyTorch框架建立模型，通过torchvision.datasets包加载数据集，最后在测试集上得到了超过随机模型（10%）的准确率结果（49%）。
 
