@@ -3,8 +3,8 @@
 
 流程：
 1.通过torchvision.datasets包加载数据集  
-2.建立CNN模型，框架为：Conv2d→ReLU→Pool→Conv2d→ReLU→Pool→Linear→Linear→Linear  
-3.配置超参  
+2.建立一个具有2层卷积、2层池化、3层全连接的CNN模型
+3.设置超参  
 4.训练epoch轮模型  
 5.通过测试集数据检验模型在全部类和各类上的准确率值。  
 
@@ -31,10 +31,14 @@
 #调节超参
 ##调节epoch
 
-
+无momentum动量优化器
 EPOCH	LOSS	ACC
 5   15%
-50	1.6	39%
+30	22%
+80 
+
+
+
 100	1.4	47.13%
 200	1.14	55.9%
 350	0.88	59.1%
