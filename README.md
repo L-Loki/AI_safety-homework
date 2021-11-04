@@ -29,13 +29,15 @@
 
 
 #调节超参
-##调节epoch
-
-无momentum动量优化器
-EPOCH	LOSS	ACC
-5   15%
-30	22%
-80 
+##调节epoch  
+  
+无momentum动量优化器  
+EPOCH	ACC  
+5   15%  
+30	22%  
+80   
+有momentum动量优化器    
+5   12%  
 
 
 
