@@ -1,7 +1,7 @@
 # homework1
 使用Python语言，用Jupyter Notebook作为编辑器，基于Pytorch框架以及CIFAR 10训练集下构建的一个基础神经网络模型，主要是通过调整超参数来观察各个超参数的作用，以及超参数对训练所产生的不同影响
 
-流程：   
+**流程：**   
 
 1.通过torchvision.datasets包加载数据集   
 
@@ -14,16 +14,16 @@
 5.通过测试集数据检验模型在全部类和各类上的准确率值。    
 
 
-超参基本设置
+**超参基本设置**
 * Learing Rate = 0.01
 * Epoch = 5
 * Batch Size = 4
 * Optimizer：SGD(momentum=0.9)
 * Criterion：CrossEntropyLoss
 
-调节超参  
+**调节超参**  
 
-调节epoch   
+**调节epoch**   
 
  
 | epoch    |  acc  |
@@ -38,7 +38,7 @@
 
 
  
-调节学习率LR  
+**调节学习率LR**  
 
 
 LR=0.001
